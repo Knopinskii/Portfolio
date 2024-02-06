@@ -1,10 +1,12 @@
-import NavBar from "../components/NavBar";
+import Project from "../components/Project";
 
 function Projects() {
   return (
     <div>
-      <NavBar />
-      <h1 className="text-white pt-10 pb-[20rem] text-center">Projects</h1>
+      <h1 className="text-white pt-10 text-5xl text-center">
+        My Personal Projects
+      </h1>
+      <Project />
     </div>
   );
 }

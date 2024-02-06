@@ -1,4 +1,3 @@
-import NavBar from "../components/NavBar";
 import { MdEmail } from "react-icons/md";
 import { FaGithubSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -6,8 +5,6 @@ import { IoLogoLinkedin } from "react-icons/io5";
 function Homepage() {
   return (
     <div>
-      <NavBar />
-
       <div className="text-white pt-16 pb-[20rem] text-center">
         <h1 className="text-5xl font-light">Hi, my name is Vladimir</h1>
 

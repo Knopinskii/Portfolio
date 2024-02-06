@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="text-white flex items-center justify-center gap-5 text-5xl">
+    <div className="text-white flex items-center justify-center gap-5 text-5xl pt-10">
       <FaGithubSquare />
       <FaFacebookSquare />
       <FaLinkedin />
