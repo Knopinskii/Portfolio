@@ -14,6 +14,7 @@ function Project() {
             name={project.name}
             image={project.image}
             key={project.name}
+            href={project.href}
           />
         ))}
       </div>

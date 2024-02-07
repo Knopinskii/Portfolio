@@ -13,7 +13,14 @@ function ProjectDisplay() {
       </h1>
       <img src={project.image} className="rounded-xl max-w-3xl" />
       <p className="text-white mt-10 text-3xl">Skills: {project.skills}</p>
-      <FaGithub className="text-white mt-10 mb-10 size-12" />
+      <a
+        className="text-white mt-10"
+        href={project.githubLink}
+        // target="_blank"
+        // rel="noopener noreferrer"
+      >
+        <FaGithub className="size-12" />
+      </a>
     </div>
   );
 }
